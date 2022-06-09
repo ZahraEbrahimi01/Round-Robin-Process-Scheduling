@@ -231,7 +231,7 @@ def printData(data, average_turnaround_time, average_waiting_time, executed_proc
     # Sort processes according to the Process ID
     data.sort(key=lambda x: x[0])
 
-    # add fields to pretty table
+    # add fields name to pretty table
     table.field_names = ['ID', 'Arrival', 'Remaining', 'isCompleted', 'BurstTime', 'FinishTime', 'Turnaround', 'Waiting']
 
     # add data to pretty table
